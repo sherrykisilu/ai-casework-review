@@ -1,0 +1,20 @@
+[
+  {
+    "id": "privacy-urgent",
+    "text": "This is urgent. The customer reports a privacy breach and asks for an immediate response.",
+    "expected_categories": ["compliance", "urgency"],
+    "forbidden_categories": ["support_quality"]
+  },
+  {
+    "id": "routine-positive",
+    "text": "The customer confirmed the replacement arrived and thanked the support team for the response.",
+    "expected_categories": [],
+    "forbidden_categories": ["compliance", "customer_risk", "urgency", "support_quality"]
+  },
+  {
+    "id": "missed-escalation",
+    "text": "The issue remains unresolved after three contacts and the customer wants to escalate.",
+    "expected_categories": ["support_quality"],
+    "forbidden_categories": ["compliance"]
+  }
+]

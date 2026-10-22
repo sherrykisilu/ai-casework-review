@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(circle at top right, rgba(15, 118, 110, 0.12), transparent 30rem),
+    linear-gradient(180deg, #fffdf7 0%, #f7f5ef 100%);
+}
+
+:focus-visible {
+  outline: 3px solid #0f766e;
+  outline-offset: 3px;
+}
